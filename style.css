@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+  color: #333333;
+  font-weight: 300;
+  line-height: 1.6;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+.main-header {
+  padding: 0px 64px;
+  box-shadow: -2px -11px 24px #6b7680;
+  margin: 0px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  padding: 0px;
+  margin-right: 745px;
+}
+.head-btn {
+  gap: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.login-btn {
+  background-color: #ffffff;
+  border: 1px solid #39434d;
+  border-radius: 8px;
+  height: 32px;
+  width: 72.36px;
+}
+
+.login {
+  padding: 0px 16px;
+  color: #39434d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight:600;
+  height: 32px;
+  align-items: center;
+  display: flex;
+}
+
+.signup {
+    padding: 0px 16px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight:600;
+    height: 32px;
+    align-items: center;
+    display: flex;
+  }
+.signup-btn{
+    background-color: #e21b70;
+    border-radius: 8px;
+    height: 32px;
+    width: 82px;
+}
